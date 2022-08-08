@@ -1,33 +1,13 @@
 * {
-    background-color: #EFE6E4;
     font-family: "Montserrat";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-a {
-    color:#533738;
-    text-decoration: none;
+body {
+    background-color: #EFE6E4;
 }
-
-.primary a {
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.work a {
-    font-size: 30px;
-    font-weight: 500;
-}
-
-
-header.header {
-    font-weight: 400;
-    font-size: 16px;
-}
-
-ul.nav__list {
-    list-style: none;
-}
-
 
 h1 {
     font-weight: 400;
@@ -51,6 +31,97 @@ p {
     color: #533738;
 }
 
+a {
+    color:#533738;
+    text-decoration: none;
+}
+
+.primary a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #533738;
+    background-color: #CC8B86;
+    padding: 25px 66px;
+}
+
+.work a {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+header.header {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul.nav__list {
+    list-style: none;
+}
 
 
 
+/* about us */
+
+section.experience {
+    background: #8D7370;
+}
+
+/* team  */
+
+section.team {
+    background: #E2C4BA;
+}
+
+.step p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+
+/* order */
+
+section#order h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+section#order span {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+input[type="text"],
+input[type="tel"] {
+    all: unset;
+    border-bottom: 1px solid #F6EDE9;
+}
+
+
+input[type="submit"] {
+    all: unset;
+    font-size: 20px;
+    font-weight: 500;
+    color: #533738;
+    background-color: #CC8B86;
+    padding: 25px 66px;
+}
+
+input::placeholder {
+    color: #F6EDE9;
+}
+
+input[type="submit"] {
+    all: unset;
+    font-size: 20px;
+    font-weight: 500;
+    color: #533738;
+    background-color: #CC8B86;
+    padding: 25px 66px;
+}
+
+section#order {
+    background: #8D7370;
+}
