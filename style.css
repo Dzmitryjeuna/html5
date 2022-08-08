@@ -1,0 +1,56 @@
+* {
+    background-color: #EFE6E4;
+    font-family: "Montserrat";
+}
+
+a {
+    color:#533738;
+    text-decoration: none;
+}
+
+.primary a {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.work a {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+header.header {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul.nav__list {
+    list-style: none;
+}
+
+
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 62px;
+    color: #533738;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #533738;
+}
+
+span,
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+
+
+
